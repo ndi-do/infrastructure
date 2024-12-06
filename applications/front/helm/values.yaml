@@ -1,6 +1,6 @@
 ndi-front:
   image:
-    tag: bf4a5270ea58d4b229bdf463eed6fc817172fe15
+    tag: c42859f25f5f396ecea922fb5703705aa1510142
   ingress:
     enabled: true
     hosts:
@@ -13,4 +13,3 @@ ndi-front:
   #   hosts:
   #     - host: api.ndi.bonnal.cloud
   #       paths:
-
