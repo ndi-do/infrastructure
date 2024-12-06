@@ -25,6 +25,6 @@ appVersion: "1.16.0"
 
 
 dependencies:
-  - name: api
+  - name: ndi-api
     version: 0.1.0
-    repository: https://ndi-do.github.io/2024-bergerie-api/kubernetes/chart/charts/
+    repository: https://ndi-do.github.io/2024-bergerie-api/kubernetes/chart/charts

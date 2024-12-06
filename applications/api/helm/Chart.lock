@@ -1,0 +1,6 @@
+dependencies:
+- name: ndi-api
+  repository: https://ndi-do.github.io/2024-bergerie-api/kubernetes/chart/charts
+  version: 0.1.0
+digest: sha256:28eea0047a100b87a06832e60e3bec4356ee9d92bcf2e4fc48728a9499a73e6c
+generated: "2024-12-06T02:55:46.724126+01:00"

@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ndi-api
+  name: api
   namespace: argocd
 spec:
   project: ndi
   source:
     repoURL: https://github.com/ndi-do/infrastructure.git
     targetRevision: HEAD
-    path: applications/api
+    path: applications/api/helm
   destination:
     server: https://kubernetes.default.svc
     namespace: ndi

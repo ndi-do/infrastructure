@@ -1,8 +1,3 @@
-image:
-  tag: "latest"
-api:
-  image:
-    tag: 8c6a105d2d3faa8992f8aa654fe91db1b0d036fa
 ndi-api:
   image:
     tag: 04a0d6aa0cd6054084ff02d6ad2c10258761566b
