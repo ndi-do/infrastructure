@@ -13,8 +13,7 @@ ndi-api:
         paths:
           - path: /
             pathType: Prefix
-  # ingress:
-  #   enabled: true
-  #   hosts:
-  #     - host: api.ndi.bonnal.cloud
-  #       paths:
+    tls:
+      - secretName: api.ndi.bonnal.cloud-tls
+        hosts:
+          - api.ndi.bonnal.cloud
