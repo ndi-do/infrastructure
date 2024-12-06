@@ -1,6 +1,6 @@
 ndi-front:
   image:
-    tag: c42859f25f5f396ecea922fb5703705aa1510142
+    tag: d0dc65f862cbbd3a1328abe006039fd176701dfb
   ingress:
     enabled: true
     hosts:
