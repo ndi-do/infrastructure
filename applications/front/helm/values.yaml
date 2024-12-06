@@ -1,6 +1,6 @@
 ndi-front:
   image:
-    tag: d0dc65f862cbbd3a1328abe006039fd176701dfb
+    tag: 1548e028040a149eb79640461340ee4797e029ed
   ingress:
     enabled: true
     className: "traefik"
@@ -14,6 +14,6 @@ ndi-front:
           - path: /
             pathType: Prefix
     tls:
-    - secretName: ndi.bonnal.cloud-tls
-      hosts:
-        - ndi.bonnal.cloud
+      - secretName: ndi.bonnal.cloud-tls
+        hosts:
+          - ndi.bonnal.cloud
