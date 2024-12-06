@@ -3,6 +3,11 @@ ndi-api:
     tag: 393fd08f4c6b44d6fef310de18ca001060871832
   ingress:
     enabled: true
+    className: "traefik"
+    annotations:
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+      traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
+      traefik.ingress.kubernetes.io/router.tls: 'true'
     hosts:
       - host: api.ndi.bonnal.cloud
         paths:
