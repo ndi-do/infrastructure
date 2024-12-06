@@ -1,6 +1,6 @@
 ndi-api:
   image:
-    tag: bf4a5270ea58d4b229bdf463eed6fc817172fe15
+    tag: 393fd08f4c6b44d6fef310de18ca001060871832
   ingress:
     enabled: true
     hosts:
@@ -17,4 +17,3 @@ ndi-api:
   #   hosts:
   #     - host: api.ndi.bonnal.cloud
   #       paths:
-
