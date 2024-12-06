@@ -1,6 +1,6 @@
 ndi-front:
   image:
-    tag: fc98b1082d4ed5f280dc5a6a732f2f94036d3b31
+    tag: 2510673fcd672f27699f72b01d054243619959d4
   ingress:
     enabled: true
     className: "traefik"
