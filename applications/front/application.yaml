@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ndi-front
+  namespace: argocd
+spec:
+  project: ndi
+  source:
+    repoURL: https://github.com/ndi-do/infrastructure.git
+    targetRevision: HEAD
+    path: applications/front/helm
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: ndi
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

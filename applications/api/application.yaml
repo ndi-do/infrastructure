@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: api
+  name: ndi-api
   namespace: argocd
 spec:
   project: ndi
@@ -12,3 +12,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: ndi
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
