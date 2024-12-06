@@ -1,2 +1,5 @@
 image:
   tag: "latest"
+api:
+  image:
+    tag: 745839ada29b143fefe928540228355da2b11da5
